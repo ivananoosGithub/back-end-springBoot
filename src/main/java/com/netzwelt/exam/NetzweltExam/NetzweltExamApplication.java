@@ -13,9 +13,4 @@ public class NetzweltExamApplication {
 		SpringApplication.run(NetzweltExamApplication.class, args);
 	}
 	
-	@GetMapping
-	public String helloWorld() {
-		return "Hello World";
-	}
-
 }

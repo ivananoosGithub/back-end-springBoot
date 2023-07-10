@@ -17,7 +17,7 @@ public class LoginServiceImpl implements LoginService {
 	@Override
 	public boolean authenticateUser(String username, String password) {
 	    try {
-	        // Make a request to the external API to authenticate the user
+	        // Made a request to the external API to authenticate the user
 	        RestTemplate restTemplate = new RestTemplate();
 	        String url = "https://netzwelt-devtest.azurewebsites.net/Account/SignIn";
 	        HttpHeaders headers = new HttpHeaders();
