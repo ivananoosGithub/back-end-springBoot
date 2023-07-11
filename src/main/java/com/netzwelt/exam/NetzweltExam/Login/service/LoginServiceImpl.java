@@ -34,6 +34,7 @@ public class LoginServiceImpl implements LoginService {
 	        } else {
 	            return false; // Authentication failed
 	        }
+
 	    } catch (Exception e) {
 	        // Handle any exceptions that occur during the API request
 	        e.printStackTrace();
