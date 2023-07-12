@@ -7,7 +7,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-@Configuration
 public class NetzweltExamApplication {
 
 	public static void main(String[] args) {

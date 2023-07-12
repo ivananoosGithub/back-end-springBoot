@@ -1,6 +1,10 @@
 package com.netzwelt.exam.NetzweltExam.User;
 
 public class User {
+	
+	private String username;
+	private String password;
+	
 	public String getUsername() {
 		return username;
 	}
@@ -13,6 +17,4 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	private String username;
-	private String password;
 }
