@@ -12,7 +12,6 @@ public class TerritoryResponse {
     private List<Territory> data;
 
     public TerritoryResponse() {
-        // Default constructor
     }
 
 	public List<Territory> getData() {
